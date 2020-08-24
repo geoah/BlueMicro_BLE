@@ -29,7 +29,7 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 #define DEVICE_NAME_L "Lesser Helix Left"
 #define DEVICE_NAME_M "Lesser Helix"
 #define DEVICE_MODEL "Lesser Helix v4.0"
-#define MANUFACTURER_NAME "github.com/Lesser Helix/kb-lesser-helix"
+#define MANUFACTURER_NAME "github.com/geoah/kb-lesser-helix"
 
 #define DEBOUNCETIME 5
 

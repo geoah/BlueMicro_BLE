@@ -22,15 +22,18 @@ LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR P
 #define HARDWARE_CONFIG_H
 #include "hardware_variants.h"
 #define HARDWARE_MAPPING  NICE_NANOV1_0
-#include "breakout_mapping.h"
 
 /* HARDWARE DEFINITION*/
 /* key matrix size */
 #define MATRIX_ROWS 4
 #define MATRIX_COLS 7
 
-#define MATRIX_ROW_PINS { D4, C6, D7, E6 }
-#define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B2 }
+// #define MATRIX_ROW_PINS { D4, C6, D7, E6 }
+// #define MATRIX_COL_PINS { F4, F5, F6, F7, B1, B3, B2 }
+
+#define MATRIX_ROW_PINS { 22, 24, 32, 11 }
+#define MATRIX_COL_PINS { 31, 29, 2, 47, 45, 43, 10 }
+
 #define UNUSED_PINS {}
 
 /* COL2ROW or ROW2COL */
